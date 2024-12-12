@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum Studio - Agencia de Marketing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            color: #333;
+        }
+
+        header {
+            background-color: #0d6efd;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 15px 20px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #0d6efd;
+        }
+
+        .hero {
+            background: linear-gradient(to right, #0d6efd, #ff7c44);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 40px;
+            background: #f9f9f9;
+        }
+
+        .service {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .service h3 {
+            color: #0d6efd;
+        }
+
+        .contact {
+            padding: 40px;
+            background: #ffffff;
+            text-align: center;
+        }
+
+        .contact form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .contact input, .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .contact button {
+            padding: 10px 20px;
+            background: #0d6efd;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .contact button:hover {
+            background: #ff7c44;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #0d6efd;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Momentum Studio</h1>
+        <p>Impulsamos marcas con estrategias que conectan</p>
+    </header>
+
+    <nav>
+        <a href="#servicios">Servicios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Transforma tu presencia digital</h1>
+        <p>En Momentum Studio, creamos estrategias personalizadas que llevan tu negocio al siguiente nivel.</p>
+    </section>
+
+    <section id="servicios" class="services">
+        <div class="service">
+            <h3>Estrategias de Marketing</h3>
+            <p>Diseñamos campañas que generan resultados medibles.</p>
+        </div>
+        <div class="service">
+            <h3>Diseño Gráfico</h3>
+            <p>Creación de identidad visual profesional y atractiva.</p>
+        </div>
+        <div class="service">
+            <h3>Gestión de Redes Sociales</h3>
+            <p>Impulsa tu marca con contenido estratégico y creativo.</p>
+        </div>
+    </section>
+
+    <section id="nosotros" class="about">
+        <div class="contact">
+            <h2>Sobre Nosotros</h2>
+            <p>En Momentum Studio, somos un equipo apasionado por ayudar a las marcas a alcanzar su máximo potencial. Creemos en estrategias innovadoras y resultados de alto impacto.</p>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <h2>Contacto</h2>
+        <form>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo Electrónico" required>
+            <textarea rows="4" placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Momentum Studio. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
