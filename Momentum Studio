@@ -170,14 +170,6 @@
         <p>&copy; 2024 Momentum Studio. Todos los derechos reservados.</p>
     </footer>
 </body>
-https://github.com/MomentumStudio/MomentumStudio.github.io
-cd MomentumStudio.github.io
 
-echo "Hello World" > index.html
---all
-
--m "Initial commit"
-
--u origin main
 
 </html>
