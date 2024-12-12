@@ -170,14 +170,14 @@
         <p>&copy; 2024 Momentum Studio. Todos los derechos reservados.</p>
     </footer>
 </body>
-git clone https://github.com/MomentumStudio/MomentumStudio.github.io
+https://github.com/MomentumStudio/MomentumStudio.github.io
 cd MomentumStudio.github.io
 
 echo "Hello World" > index.html
-git add --all
+--all
 
-git commit -m "Initial commit"
+-m "Initial commit"
 
-git push -u origin main
+-u origin main
 
 </html>
